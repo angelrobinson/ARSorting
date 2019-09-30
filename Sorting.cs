@@ -676,7 +676,7 @@ namespace ARSorting
         /// Worst case running time should be: O(N^2)
         /// </summary>
         /// <typeparam name="T">data type of the doubly linked list</typeparam>
-        /// <param name="array">doubly linked to be sorted</param>
+        /// <param name="llist">doubly linked to be sorted</param>
         public void QuickSort<T>(LinkedList<T> llist) { throw new NotImplementedException(); }
 
         /// <summary>
@@ -690,7 +690,7 @@ namespace ARSorting
         /// Worst case running time should be: O(N^2)
         /// </summary>
         /// <typeparam name="T">data type of the linked list</typeparam>
-        /// <param name="array">linked list to be sorted</param>
+        /// <param name="list">linked list to be sorted</param>
         public void QuickSort<T>(List<T> list) { throw new NotImplementedException(); }
 
         /// <summary>

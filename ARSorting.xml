@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ARSorting</name>
+    </assembly>
+    <members>
+        <member name="T:ARSorting.Sorting">
+            <summary>
+            This class holds methods for several sorting algorithms
+            </summary>
+        </member>
+        <member name="M:ARSorting.Sorting.BubbleSort``1(System.Collections.Generic.LinkedList{``0}@)">
+            <summary>
+            Sorts a doubly linked list:
+            Starting with p position, compare to adjoining element
+            -swap if needed putting lower element on left.
+            -recursively,or repeat looping until no swapping was performed
+            running time should be: O(N^2) 
+            </summary>
+            <typeparam name="T">data type</typeparam>
+            <param name="llist">reference to linked list to be sorted</param>
+        </member>
+        <member name="M:ARSorting.Sorting.BubbleSort``1(System.Collections.Generic.List{``0}@)">
+            <summary>
+            Sorts a Single linked list:
+            Starting with p position, compare to adjoining element
+            -swap if needed putting lower element on left.
+            -recursively,or repeat looping until no swapping was performed
+            running time should be: O(N^2) 
+            </summary>
+            <typeparam name="T">data type</typeparam>
+            <param name="list">reference to linked list to be sorted</param>
+        </member>
+        <member name="M:ARSorting.Sorting.BubbleSort``1(``0[]@)">
+            <summary>
+            Sorts and array: 
+            Starting with p position, compare to adjoining element
+            -swap if needed putting lower element on left.
+            -recursively,or repeat looping until no swapping was performed
+            running time should be: O(N^2) 
+            </summary>
+            <typeparam name="T">data type</typeparam>
+            <param name="array">reference to array to be sorted</param>        
+        </member>
+        <member name="M:ARSorting.Sorting.InsertionSort``1(System.Collections.Generic.LinkedList{``0}@)">
+            <summary>
+            sort doubly linked list using insertion algorithm
+            Starting with p position, move element left until the proper place is found.
+            -element goes into a temp holder while all other elements are shifted to the right
+            -no swapping needed
+            average running time should be: O(N^2) (becuase of nested loops)
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="llist"></param>
+        </member>
+        <member name="M:ARSorting.Sorting.InsertionSort``1(System.Collections.Generic.List{``0}@)">
+            <summary>
+            sort linked list using insertion algorithm
+            Starting with p position, move element left until the proper place is found.
+            -element goes into a temp holder while all other elements are shifted to the right
+            -no swapping needed
+            average running time should be: O(N^2) (becuase of nested loops)
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="list"></param>
+        </member>
+        <member name="M:ARSorting.Sorting.InsertionSort``1(``0[]@)">
+            <summary>
+            Sort array using insertion sort algorithm
+            Starting with p position, move element left until the proper place is found.
+            -element goes into a temp holder while all other elements are shifted to the right
+            -no swapping needed
+            average running time should be: O(N^2) (becuase of nested loops)
+            </summary>
+            <typeparam name="T">data type</typeparam>
+            <param name="array">reference to array to be sorted</param>
+        </member>
+        <member name="M:ARSorting.Sorting.MergeSort``1(System.Collections.Generic.LinkedList{``0}@)">
+            <summary>
+            Sort doubly linked list using merge sort algorithm
+            Split data structure in half, sort sub-structures
+            -Recursively, or use loops, to continue spliting sub-structures until they have 1-2 elements left to compare and swap
+            -if structure only has 1 element, return and merge with other sub-structure
+            
+            Merge the two sorted structures together
+            -using a third structure to hold the finished product
+            -iterate through the substructures, comparing element at pointer
+            -insert lower element into third structure and move pointer to the right
+            -if one sub-structure is depleted, concat the remaining elements to the final structure
+            
+            Worst case running time should be: O(N logN)
+            </summary>
+            <typeparam name="T">data type of doubly linked list</typeparam>
+            <param name="array">doubly linked list to be sorted</param>
+        </member>
+        <member name="M:ARSorting.Sorting.MergeSort``1(System.Collections.Generic.List{``0}@)">
+            <summary>
+            Sort linked list using merge sort algorithm
+            Split data structure in half, sort sub-structures
+            -Recursively, or use loops, to continue spliting sub-structures until they have 1-2 elements left to compare and swap
+            -if structure only has 1 element, return and merge with other sub-structure
+            
+            Merge the two sorted structures together
+            -using a third structure to hold the finished product
+            -iterate through the substructures, comparing element at pointer
+            -insert lower element into third structure and move pointer to the right
+            -if one sub-structure is depleted, concat the remaining elements to the final structure
+            
+            Worst case running time should be: O(N logN)
+            </summary>
+            <typeparam name="T">data type of linked list</typeparam>
+            <param name="array">linked list to be sorted</param>
+        </member>
+        <member name="M:ARSorting.Sorting.MergeSort``1(``0[]@)">
+            <summary>
+            Sort array using merge sort algorithm
+            Split data structure in half, sort sub-structures
+            -Recursively, or use loops, to continue spliting sub-structures until they have 1-2 elements left to compare and swap
+            -if structure only has 1 element, return and merge with other sub-structure
+            
+            Merge the two sorted structures together
+            -using a third structure to hold the finished product
+            -iterate through the substructures, comparing element at pointer
+            -insert lower element into third structure and move pointer to the right
+            -if one sub-structure is depleted, concat the remaining elements to the final structure
+            
+            Worst case running time should be: O(N logN)
+            </summary>
+            <typeparam name="T">data type of array</typeparam>
+            <param name="array">array to be sorted</param>
+        </member>
+        <member name="M:ARSorting.Sorting.QuickSort``1(System.Collections.Generic.LinkedList{``0})">
+            <summary>
+            sort the doubly linked list using the quick sort algorithm
+            Choose an item arbitrarily, or find the median of the structure,
+            Split the structure into 2 or 3 sub-structures (less than, same, greater than)
+            Concat the sub-structures together
+            
+            Sort sub-structures by recursively, or looping, the algorithm
+            Average case runnign time should be: O(N logN)
+            Worst case running time should be: O(N^2)
+            </summary>
+            <typeparam name="T">data type of the doubly linked list</typeparam>
+            <param name="array">doubly linked to be sorted</param>
+        </member>
+        <member name="M:ARSorting.Sorting.QuickSort``1(System.Collections.Generic.List{``0})">
+            <summary>
+            sort the linked list using the quick sort algorithm
+            Choose an item arbitrarily, or find the median of the structure,
+            Split the structure into 2 or 3 sub-structures (less than, same, greater than)
+            Concat the sub-structures together
+            
+            Sort sub-structures by recursively, or looping, the algorithm
+            Average case runnign time should be: O(N logN)
+            Worst case running time should be: O(N^2)
+            </summary>
+            <typeparam name="T">data type of the linked list</typeparam>
+            <param name="array">linked list to be sorted</param>
+        </member>
+        <member name="M:ARSorting.Sorting.QuickSort``1(``0[])">
+            <summary>
+            sort the array using the quick sort algorithm
+            Choose an item arbitrarily, or find the median of the structure,
+            Split the structure into 2 or 3 sub-structures (less than, same, greater than)
+            Concat the sub-structures together
+            
+            Sort sub-structures by recursively, or looping, the algorithm
+            Average case runnign time should be: O(N logN)
+            Worst case running time should be: O(N^2)
+            </summary>
+            <typeparam name="T">data type of the array</typeparam>
+            <param name="array">array to be sorted</param>
+        </member>
+    </members>
+</doc>
