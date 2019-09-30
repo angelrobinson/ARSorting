@@ -1,0 +1,612 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="C:\Users\Angela\AppData\Roaming\DocPreview\1.3.8.0\css/ContentsMerged.css" />
+    <title>Class GenericClass</title>
+</head>
+<body><p>    <div id="Header">
+        <div id="ProjectTitle">Documentation Preview</div>
+        <div id="PageTitle">Class</div>
+        <div id="Contents" />
+
+
+ This class holds methods for several sorting algorithms
+ 
+    <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\Angela\AppData\Roaming\DocPreview\1.3.8.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+public class Sorting</pre></td></tr></tbody></table>
+
+
+
+
+
+
+
+
+
+    </div>
+
+</p><hr></hr><p>    <div id="Header">
+        <div id="ProjectTitle">Documentation Preview</div>
+        <div id="PageTitle">Member</div>
+        <div id="Contents" />
+
+
+ Sorts a doubly linked list:
+ Starting with p position, compare to adjoining element
+ -swap if needed putting lower element on left.
+ -recursively,or repeat looping until no swapping was performed
+ running time should be: O(N^2)
+ 
+    <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\Angela\AppData\Roaming\DocPreview\1.3.8.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+public void BubbleSort&lt;T&gt;(ref LinkedList&lt;T&gt; llist)</pre></td></tr></tbody></table>
+<div class='CommentHeader'>Type Parameters</div>
+<div class='CommentParameterName'>T</div><div class='ParameterCommentContainer'>
+data type
+</div>
+
+<div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>llist</div><div class='ParameterCommentContainer'>
+reference to linked list to be sorted
+</div>
+
+
+
+
+
+
+
+
+    </div>
+
+</p><hr></hr><p>    <div id="Header">
+        <div id="ProjectTitle">Documentation Preview</div>
+        <div id="PageTitle">Member</div>
+        <div id="Contents" />
+
+
+ Sorts a Single linked list:
+ Starting with p position, compare to adjoining element
+ -swap if needed putting lower element on left.
+ -recursively,or repeat looping until no swapping was performed
+ running time should be: O(N^2)
+ 
+    <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\Angela\AppData\Roaming\DocPreview\1.3.8.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+public void BubbleSort&lt;T&gt;(ref List&lt;T&gt; list)</pre></td></tr></tbody></table>
+<div class='CommentHeader'>Type Parameters</div>
+<div class='CommentParameterName'>T</div><div class='ParameterCommentContainer'>
+data type
+</div>
+
+<div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>list</div><div class='ParameterCommentContainer'>
+reference to linked list to be sorted
+</div>
+
+
+
+
+
+
+
+
+    </div>
+
+</p><hr></hr><p>    <div id="Header">
+        <div id="ProjectTitle">Documentation Preview</div>
+        <div id="PageTitle">Member</div>
+        <div id="Contents" />
+
+
+ Sorts and array:
+ Starting with p position, compare to adjoining element
+ -swap if needed putting lower element on left.
+ -recursively,or repeat looping until no swapping was performed
+ running time should be: O(N^2)
+ 
+    <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\Angela\AppData\Roaming\DocPreview\1.3.8.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+public void BubbleSort&lt;T&gt;(ref T[] array)</pre></td></tr></tbody></table>
+<div class='CommentHeader'>Type Parameters</div>
+<div class='CommentParameterName'>T</div><div class='ParameterCommentContainer'>
+data type
+</div>
+
+<div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>array</div><div class='ParameterCommentContainer'>
+reference to array to be sorted
+</div>
+
+
+
+
+
+
+
+
+    </div>
+
+</p><hr></hr><p>    <div id="Header">
+        <div id="ProjectTitle">Documentation Preview</div>
+        <div id="PageTitle">Member</div>
+        <div id="Contents" />
+
+
+ sort doubly linked list using insertion algorithm
+ Starting with p position, move element left until the proper place is found.
+ -element goes into a temp holder while all other elements are shifted to the right
+ -no swapping needed
+ average running time should be: O(N^2) (becuase of nested loops)
+ 
+    <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\Angela\AppData\Roaming\DocPreview\1.3.8.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+public void InsertionSort&lt;T&gt;(ref LinkedList&lt;T&gt; llist)</pre></td></tr></tbody></table>
+<div class='CommentHeader'>Type Parameters</div>
+<div class='CommentParameterName'>T</div><div class='ParameterCommentContainer'>
+
+</div>
+
+<div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>llist</div><div class='ParameterCommentContainer'>
+
+</div>
+
+
+
+
+
+
+
+
+    </div>
+
+</p><hr></hr><p>    <div id="Header">
+        <div id="ProjectTitle">Documentation Preview</div>
+        <div id="PageTitle">Member</div>
+        <div id="Contents" />
+
+
+ sort linked list using insertion algorithm
+ Starting with p position, move element left until the proper place is found.
+ -element goes into a temp holder while all other elements are shifted to the right
+ -no swapping needed
+ average running time should be: O(N^2) (becuase of nested loops)
+ 
+    <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\Angela\AppData\Roaming\DocPreview\1.3.8.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+public void InsertionSort&lt;T&gt;(ref List&lt;T&gt; list)</pre></td></tr></tbody></table>
+<div class='CommentHeader'>Type Parameters</div>
+<div class='CommentParameterName'>T</div><div class='ParameterCommentContainer'>
+
+</div>
+
+<div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>list</div><div class='ParameterCommentContainer'>
+
+</div>
+
+
+
+
+
+
+
+
+    </div>
+
+</p><hr></hr><p>    <div id="Header">
+        <div id="ProjectTitle">Documentation Preview</div>
+        <div id="PageTitle">Member</div>
+        <div id="Contents" />
+
+
+ Sort array using insertion sort algorithm
+ Starting with p position, move element left until the proper place is found.
+ -element goes into a temp holder while all other elements are shifted to the right
+ -no swapping needed
+ average running time should be: O(N^2) (becuase of nested loops)
+ 
+    <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\Angela\AppData\Roaming\DocPreview\1.3.8.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+public void InsertionSort&lt;T&gt;(ref T[] array)</pre></td></tr></tbody></table>
+<div class='CommentHeader'>Type Parameters</div>
+<div class='CommentParameterName'>T</div><div class='ParameterCommentContainer'>
+data type
+</div>
+
+<div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>array</div><div class='ParameterCommentContainer'>
+reference to array to be sorted
+</div>
+
+
+
+
+
+
+
+
+    </div>
+
+</p><hr></hr><p>    <div id="Header">
+        <div id="ProjectTitle">Documentation Preview</div>
+        <div id="PageTitle">Member</div>
+        <div id="Contents" />
+
+
+ Sort doubly linked list using merge sort algorithm
+ Split data structure in half, sort sub-structures
+ -Recursively, or use loops, to continue spliting sub-structures until they have 1-2 elements left to compare and swap
+ -if structure only has 1 element, return and merge with other sub-structure
+
+ Merge the two sorted structures together
+ -using a third structure to hold the finished product
+ -iterate through the substructures, comparing element at pointer
+ -insert lower element into third structure and move pointer to the right
+ -if one sub-structure is depleted, concat the remaining elements to the final structure
+
+ Worst case running time should be: O(N logN)
+ 
+    <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\Angela\AppData\Roaming\DocPreview\1.3.8.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+public void MergeSort&lt;T&gt;(ref LinkedList&lt;T&gt; llist)</pre></td></tr></tbody></table>
+<div class='CommentHeader'>Type Parameters</div>
+<div class='CommentParameterName'>T</div><div class='ParameterCommentContainer'>
+data type of doubly linked list
+</div>
+
+<div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>array</div><div class='ParameterCommentContainer'>
+doubly linked list to be sorted
+</div>
+
+
+
+
+
+
+
+
+    </div>
+
+</p><hr></hr><p>    <div id="Header">
+        <div id="ProjectTitle">Documentation Preview</div>
+        <div id="PageTitle">Member</div>
+        <div id="Contents" />
+
+
+ Sort linked list using merge sort algorithm
+ Split data structure in half, sort sub-structures
+ -Recursively, or use loops, to continue spliting sub-structures until they have 1-2 elements left to compare and swap
+ -if structure only has 1 element, return and merge with other sub-structure
+
+ Merge the two sorted structures together
+ -using a third structure to hold the finished product
+ -iterate through the substructures, comparing element at pointer
+ -insert lower element into third structure and move pointer to the right
+ -if one sub-structure is depleted, concat the remaining elements to the final structure
+
+ Worst case running time should be: O(N logN)
+ 
+    <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\Angela\AppData\Roaming\DocPreview\1.3.8.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+public void MergeSort&lt;T&gt;(ref List&lt;T&gt; list)</pre></td></tr></tbody></table>
+<div class='CommentHeader'>Type Parameters</div>
+<div class='CommentParameterName'>T</div><div class='ParameterCommentContainer'>
+data type of linked list
+</div>
+
+<div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>array</div><div class='ParameterCommentContainer'>
+linked list to be sorted
+</div>
+
+
+
+
+
+
+
+
+    </div>
+
+</p><hr></hr><p>    <div id="Header">
+        <div id="ProjectTitle">Documentation Preview</div>
+        <div id="PageTitle">Member</div>
+        <div id="Contents" />
+
+
+ Sort array using merge sort algorithm
+ Split data structure in half, sort sub-structures
+ -Recursively, or use loops, to continue spliting sub-structures until they have 1-2 elements left to compare and swap
+ -if structure only has 1 element, return and merge with other sub-structure
+
+ Merge the two sorted structures together
+ -using a third structure to hold the finished product
+ -iterate through the substructures, comparing element at pointer
+ -insert lower element into third structure and move pointer to the right
+ -if one sub-structure is depleted, concat the remaining elements to the final structure
+
+ Worst case running time should be: O(N logN)
+ 
+    <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\Angela\AppData\Roaming\DocPreview\1.3.8.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+public void MergeSort&lt;T&gt;(ref T[] array)</pre></td></tr></tbody></table>
+<div class='CommentHeader'>Type Parameters</div>
+<div class='CommentParameterName'>T</div><div class='ParameterCommentContainer'>
+data type of array
+</div>
+
+<div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>array</div><div class='ParameterCommentContainer'>
+array to be sorted
+</div>
+
+
+
+
+
+
+
+
+    </div>
+
+</p><hr></hr><p>    <div id="Header">
+        <div id="ProjectTitle">Documentation Preview</div>
+        <div id="PageTitle">Method</div>
+        <div id="Contents" />
+
+
+ sort the doubly linked list using the quick sort algorithm
+ Choose an item arbitrarily, or find the median of the structure,
+ Split the structure into 2 or 3 sub-structures (less than, same, greater than)
+ Concat the sub-structures together
+
+ Sort sub-structures by recursively, or looping, the algorithm
+ Average case runnign time should be: O(N logN)
+ Worst case running time should be: O(N^2)
+ 
+    <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\Angela\AppData\Roaming\DocPreview\1.3.8.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+public void QuickSort&lt;T&gt;(LinkedList&lt;T&gt; llist)</pre></td></tr></tbody></table>
+<div class='CommentHeader'>Type Parameters</div>
+<div class='CommentParameterName'>T</div><div class='ParameterCommentContainer'>
+data type of the doubly linked list
+</div>
+
+<div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>array</div><div class='ParameterCommentContainer'>
+doubly linked to be sorted
+</div>
+
+
+
+
+
+
+
+
+    </div>
+
+</p><hr></hr><p>    <div id="Header">
+        <div id="ProjectTitle">Documentation Preview</div>
+        <div id="PageTitle">Method</div>
+        <div id="Contents" />
+
+
+ sort the linked list using the quick sort algorithm
+ Choose an item arbitrarily, or find the median of the structure,
+ Split the structure into 2 or 3 sub-structures (less than, same, greater than)
+ Concat the sub-structures together
+
+ Sort sub-structures by recursively, or looping, the algorithm
+ Average case runnign time should be: O(N logN)
+ Worst case running time should be: O(N^2)
+ 
+    <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\Angela\AppData\Roaming\DocPreview\1.3.8.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+public void QuickSort&lt;T&gt;(List&lt;T&gt; list)</pre></td></tr></tbody></table>
+<div class='CommentHeader'>Type Parameters</div>
+<div class='CommentParameterName'>T</div><div class='ParameterCommentContainer'>
+data type of the linked list
+</div>
+
+<div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>array</div><div class='ParameterCommentContainer'>
+linked list to be sorted
+</div>
+
+
+
+
+
+
+
+
+    </div>
+
+</p><hr></hr><p>    <div id="Header">
+        <div id="ProjectTitle">Documentation Preview</div>
+        <div id="PageTitle">Method</div>
+        <div id="Contents" />
+
+
+ sort the array using the quick sort algorithm
+ Choose an item arbitrarily, or find the median of the structure,
+ Split the structure into 2 or 3 sub-structures (less than, same, greater than)
+ Concat the sub-structures together
+
+ Sort sub-structures by recursively, or looping, the algorithm
+ Average case runnign time should be: O(N logN)
+ Worst case running time should be: O(N^2)
+ 
+    <div id='SectionHeader0' class='SectionHeader'>
+        <img id='SectionExpanderImg0' src='C:\Users\Angela\AppData\Roaming\DocPreview\1.3.8.0\css/BigSquareExpanded.gif' alt='Collapse/Expand' >
+        <span class='SectionHeader'>
+            <span class='ArrowCursor' >
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id='SectionContainerDiv0' class='SectionContainer'>
+    <table class='CodeTable'>
+    <colgroup><col width='100%'></colgroup>
+    <tbody><tr class='CodeTable'><th class='CodeTable'>C#</th></tr><tr class='CodeTable'><td class='CodeTable'><pre style='margin-left: 2px;'>
+public void QuickSort&lt;T&gt;(T[] array)</pre></td></tr></tbody></table>
+<div class='CommentHeader'>Type Parameters</div>
+<div class='CommentParameterName'>T</div><div class='ParameterCommentContainer'>
+data type of the array
+</div>
+
+<div class='CommentHeader'>Parameters</div>
+<div class='CommentParameterName'>array</div><div class='ParameterCommentContainer'>
+array to be sorted
+</div>
+
+
+
+
+
+
+
+
+    </div>
+</p>
+</body>
+</html>
